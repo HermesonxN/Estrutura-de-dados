@@ -2,7 +2,7 @@ package one.digitalinnovation;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class EqualsEHashCode {
     public static void main(String[] args) {
         
         List<Carro> listaCarros = new ArrayList();
