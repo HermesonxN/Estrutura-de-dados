@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Mapa",
+            "request": "launch",
+            "mainClass": "one.digitalinnovation.Mapa",
+            "projectName": "ImplementandoDoProprioJava_7247c64e"
+        },
+        {
+            "type": "java",
+            "name": "Conjunto",
+            "request": "launch",
+            "mainClass": "one.digitalinnovation.Conjunto",
+            "projectName": "ImplementandoDoProprioJava_7247c64e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

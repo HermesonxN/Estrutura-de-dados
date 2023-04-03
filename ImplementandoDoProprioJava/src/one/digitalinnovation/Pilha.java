@@ -1,7 +1,7 @@
 package one.digitalinnovation;
 import java.util.Stack;
 
-public class Stack {
+public class Pilha {
     public static void main(String[] args) {
         
         Stack<Carro> stackCarros = new Stack<>();

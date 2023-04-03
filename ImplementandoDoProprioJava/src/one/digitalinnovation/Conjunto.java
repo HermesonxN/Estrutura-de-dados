@@ -3,7 +3,7 @@ import java.util.TreeSet;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Set {
+public class Conjunto {
     public static void main(String[] args) {
         
         Set<Carro> hashSetCarros = new HashSet<>();
@@ -13,7 +13,7 @@ public class Set {
         hashSetCarros.add(new Carro("Fiat"));
         hashSetCarros.add(new Carro("Peugeot"));
         hashSetCarros.add(new Carro("Zip"));
-        hashSetCarros.add(new Carro("Alfa Roneo"));
+        hashSetCarros.add(new Carro("Alfa Romeo"));
 
         System.out.println(hashSetCarros);
 
@@ -24,7 +24,7 @@ public class Set {
         treeSetCarros.add(new Carro("Fiat"));
         treeSetCarros.add(new Carro("Peugeot"));
         treeSetCarros.add(new Carro("Zip"));
-        treeSetCarros.add(new Carro("Alfa Roneo"));
+        treeSetCarros.add(new Carro("Alfa Romeo"));
 
         System.out.println(treeSetCarros);
 

@@ -2,7 +2,7 @@ package one.digitalinnovation;
 
 import java.util.Objects;
 
-public class Carro {
+public class Carro implements Comparable<Carro>{
     
     String marca;
 
@@ -29,6 +29,16 @@ public class Carro {
     @Override
     public int hashCode(){
         return Objects.hash(marca);
+    }
+
+    @Override
+    public int compareTo(Carro o){
+        if(this.marca.length() < o.marca.length()){
+            return -1;
+        }else if(this.marca.length() > o.marca.length()){
+            return 1;
+        }
+        return 0;
     }
 
     @Override 

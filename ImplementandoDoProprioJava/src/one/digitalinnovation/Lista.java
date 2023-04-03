@@ -2,7 +2,7 @@ package one.digitalinnovation;
 import java.util.List;
 import java.util.ArrayList;
 
-public class List {
+public class Lista {
     public static void main(String[] args) {
         
         List<Carro> listCarros = new ArrayList<>();
